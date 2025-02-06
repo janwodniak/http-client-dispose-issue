@@ -1,0 +1,15 @@
+### Get transactions as a Flux
+GET http://localhost:8080/transactions/flux
+Accept: application/json
+
+### Dispose a Flux subscription
+GET http://localhost:8080/transactions/flux/dispose
+Accept: application/json
+
+### Get transactions as a Mono
+GET http://localhost:8080/transactions/mono
+Accept: application/json
+
+### Dispose a Mono subscription
+GET http://localhost:8080/transactions/mono/dispose
+Accept: application/json
